@@ -1,5 +1,6 @@
 <p align="center">
-  <h1 align="center">Show Split 🍿</h1>
+  <h1 align="center"> E-Commerce-Microservices
+</h1>
 
   <p align="center">
     Um aplicativo da web de comércio eletrônico construído com arquitetura de microsserviços
