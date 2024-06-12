@@ -36,7 +36,7 @@
 
 ![Show Split em ação](https://i.imgur.com/O5D42qr.gif)
 
-Depois de aprender o desenvolvimento básico de backend monolítico, estava procurando por um curso que me ensinasse como os desenvolvedores profissionais realmente escrevem código backend. Após pesquisar, encontrei o curso "Microservices with Node JS and React" de Stephen Grider. Show Split é um pequeno aplicativo da web de comércio eletrônico que fiz enquanto aprendia com o curso mencionado anteriormente.
+
 
 Aqui está o que eu aprendi:
 * Backend Express com Typescript e dois bancos de dados diferentes (MongoDB, Redis)
