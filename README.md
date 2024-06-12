@@ -4,7 +4,7 @@
   <p align="center">
     Um aplicativo da web de comércio eletrônico construído com arquitetura de microsserviços
     <br />
-    <a href="https://documenter.getpostman.com/view/8816927/TzeWG7yi"><strong>Explore a documentação da API no postman »</strong></a>
+    <a href="https://solar-trinity-746574.postman.co/workspace/1e544daf-616d-44b7-89a7-3723dd265101/documentation/30032953-ea5ec677-587b-447d-91fe-574d6d7f1014"><strong>Explore a documentação da API no postman »</strong></a>
     <br />
     <br />
   </p>
