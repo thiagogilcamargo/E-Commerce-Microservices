@@ -1,0 +1,27 @@
+# Este é um workflow básico para ajudá-lo a começar com as Actions
+
+name: tests-auth
+
+# Controla quando a ação será executada.
+on:
+  # Dispara o workflow em eventos de push ou pull request, mas apenas para a branch principal
+  pull_request:
+    paths:
+      - 'auth/**'
+
+# Uma execução de workflow é composta de um ou mais jobs que podem ser executados sequencialmente ou em paralelo
+jobs:
+  # Este workflow contém um único job chamado "build"
+  build:
+    # O tipo de runner no qual o job será executado
+    runs-on: ubuntu-latest
+
+    # Etapas representam uma sequência de tarefas que serão executadas como parte do job
+    steps:
+      # Verifica o seu repositório em $GITHUB_WORKSPACE, para que o seu job possa acessá-lo
+      - uses: actions/checkout@v2
+      - run: cd auth && npm install && npm run test:ci
+        # Comando executado:
+        #   - Navega para o diretório auth
+        #   - Instala dependências com npm install
+        #   - Executa testes de integração contínua com npm run test:ci

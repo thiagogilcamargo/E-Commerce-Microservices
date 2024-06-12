@@ -1,0 +1,73 @@
+{
+  "compilerOptions": {
+    /* Visite https://aka.ms/tsconfig.json para ler mais sobre este arquivo */
+
+    /* Opções Básicas */
+    // "incremental": true,                         /* Habilita a compilação incremental */
+    "target": "es5",                                /* Especifique a versão do ECMAScript alvo: 'ES3' (padrão), 'ES5', 'ES2015', 'ES2016', 'ES2017', 'ES2018', 'ES2019', 'ES2020' ou 'ESNEXT'. */
+    "module": "commonjs",                           /* Especifique a geração de código do módulo: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', 'es2020' ou 'ESNext'. */
+    // "lib": [],                                   /* Especifique os arquivos de biblioteca a serem incluídos na compilação. */
+    // "allowJs": true,                             /* Permitir a compilação de arquivos JavaScript. */
+    // "checkJs": true,                             /* Relatar erros em arquivos .js. */
+    // "jsx": "preserve",                           /* Especifique a geração de código JSX: 'preserve', 'react-native', 'react', 'react-jsx' ou 'react-jsxdev'. */
+    // "declaration": true,                         /* Gera o arquivo '.d.ts' correspondente. */
+    // "declarationMap": true,                      /* Gera um sourcemap para cada arquivo '.d.ts' correspondente. */
+    // "sourceMap": true,                           /* Gera o arquivo '.map' correspondente. */
+    // "outFile": "./",                             /* Concatena e emite saída para um único arquivo. */
+    // "outDir": "./",                              /* Redireciona a estrutura de saída para o diretório. */
+    // "rootDir": "./",                             /* Especifique o diretório raiz dos arquivos de entrada. Use para controlar a estrutura do diretório de saída com --outDir. */
+    // "composite": true,                           /* Habilita a compilação do projeto */
+    // "tsBuildInfoFile": "./",                     /* Especifique o arquivo para armazenar informações de compilação incremental. */
+    // "removeComments": true,                      /* Não emite comentários para saída. */
+    // "noEmit": true,                              /* Não emite saídas. */
+    // "importHelpers": true,                       /* Importa ajudantes de emissão de 'tslib'. */
+    // "downlevelIteration": true,                  /* Fornece suporte completo para iteráveis em 'for-of', spread e destructuring ao segmentar 'ES5' ou 'ES3'. */
+    // "isolatedModules": true,                     /* Transpila cada arquivo como um módulo separado (semelhante a 'ts.transpileModule'). */
+
+    /* Opções de Verificação de Tipo Estrito */
+    "strict": true,                                 /* Habilita todas as opções de verificação de tipo estrito. */
+    // "noImplicitAny": true,                       /* Gera um erro em expressões e declarações com um tipo 'any' implícito. */
+    // "strictNullChecks": true,                    /* Habilita verificações estritas de nulos. */
+    // "strictFunctionTypes": true,                 /* Habilita a verificação estrita de tipos de função. */
+    // "strictBindCallApply": true,                 /* Habilita 'bind', 'call' e 'apply' estritos em métodos de funções. */
+    // "strictPropertyInitialization": true,        /* Habilita a verificação estrita da inicialização de propriedades em classes. */
+    // "noImplicitThis": true,                      /* Gera um erro em expressões 'this' com um tipo 'any' implícito. */
+    // "alwaysStrict": true,                        /* Analisa em modo estrito e emite "use strict" para cada arquivo de origem. */
+
+    /* Verificações Adicionais */
+    // "noUnusedLocals": true,                      /* Relata erros em variáveis locais não utilizadas. */
+    // "noUnusedParameters": true,                  /* Relata erros em parâmetros não utilizados. */
+    // "noImplicitReturns": true,                   /* Relata um erro quando nem todos os caminhos de código em uma função retornam um valor. */
+    // "noFallthroughCasesInSwitch": true,          /* Relata erros para casos de 'fallthrough' em instruções 'switch'. */
+    // "noUncheckedIndexedAccess": true,            /* Inclui 'undefined' nos resultados da assinatura de índice. */
+    // "noPropertyAccessFrom                        /* Exigir que propriedades não declaradas de assinaturas de índice usem acessos de elementos.*/
+    /* Índice de Assinatura. */
+    // "noPropertyAccessFromIndexSignature": true,  /* Exige que as propriedades não declaradas das assinaturas de índice usem acessos de elementos. */
+
+    /* Opções de Resolução de Módulo */
+    // "moduleResolution": "node",                  /* Especifique a estratégia de resolução de módulo: 'node' (Node.js) ou 'classic' (TypeScript pré-1.6). */
+    // "baseUrl": "./",                             /* Diretório base para resolver nomes de módulos não absolutos. */
+    // "paths": {},                                 /* Uma série de entradas que remapeiam importações para locais de pesquisa relativos ao 'baseUrl'. */
+    // "rootDirs": [],                              /* Lista de pastas raiz cujo conteúdo combinado representa a estrutura do projeto em tempo de execução. */
+    // "typeRoots": [],                             /* Lista de pastas para incluir definições de tipos. */
+    // "types": [],                                 /* Arquivos de declaração de tipo a serem incluídos na compilação. */
+    // "allowSyntheticDefaultImports": true,        /* Permite importações padrão de módulos sem exportação padrão. Isso não afeta a emissão de código, apenas a verificação de tipo. */
+    "esModuleInterop": true,                        /* Habilita a interoperabilidade de emissão entre CommonJS e Módulos ES via criação de objetos de namespace para todas as importações. Implica 'allowSyntheticDefaultImports'. */
+    // "preserveSymlinks": true,                    /* Não resolve o caminho real dos links simbólicos. */
+    // "allowUmdGlobalAccess": true,                /* Permite o acesso a globais UMD a partir de módulos. */
+
+    /* Opções de Mapa de Origem */
+    // "sourceRoot": "",                            /* Especifique o local onde o depurador deve localizar arquivos TypeScript em vez de locais de origem. */
+    // "mapRoot": "",                               /* Especifique o local onde o depurador deve localizar arquivos de mapa em vez de locais gerados. */
+    // "inlineSourceMap": true,                     /* Emitir um único arquivo com mapas de origem em vez de ter um arquivo separado. */
+    // "inlineSources": true,                       /* Emitir o código-fonte ao lado dos sourcemaps dentro de um único arquivo; requer '--inlineSourceMap' ou '--sourceMap' para ser configurado. */
+
+    /* Opções Experimentais */
+    // "experimentalDecorators": true,              /* Habilita suporte experimental para decoradores ES7. */
+    // "emitDecoratorMetadata": true,               /* Habilita suporte experimental para emitir metadados de tipo para decoradores. */
+
+    /* Opções Avançadas */
+    "skipLibCheck": true,                           /* Ignora a verificação de tipo de arquivos de declaração. */
+    "forceConsistentCasingInFileNames": true        /* Proíbe referências com letras maiúsculas inconsistentes para o mesmo arquivo. */
+  }
+}
