@@ -69,7 +69,7 @@ Você precisará do Docker, Kubernetes, Skaffold e ingress-nginx instalados para
 1. Obtenha uma chave de API em [Stripe](https://stripe.com/en-in)
 2. Clone o repositório
    ```sh
-   git clone 
+   git clone https://github.com/thiagogilcamargo/Show-Split-master
 
 3. Crie uma organização no NPM e publique a pasta common como um pacote npm e substitua "@showsplit/common" por todo o projeto com o nome do seu pacote. Caso contrário, quaisquer alterações feitas na pasta common (você precisará enviar as alterações para o NPM) não aparecerão nos outros serviços, pois todos os serviços dependem de "@showsplit/common" para código compartilhado neste repositório.
 4. Execute o comando abaixo para definir as variáveis de ambiente
